@@ -1,4 +1,5 @@
 import './App.css';
+import Hello from './components/Hello/Hello';
 
 // Coding is a craft. Treat it as such.
 
@@ -10,11 +11,4 @@ function App() {
   );
 }
 
-function Hello() {
-  return (
-    <div className="SayHi">
-      <h1>Hello World!</h1>
-    </div>
-  )
-}
 export default App;
